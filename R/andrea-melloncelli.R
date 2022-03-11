@@ -1,3 +1,3 @@
-somma <- function(aa, bb) {
-                      aa+bb
+somma <- function(a, b) {
+  a + b
 }
