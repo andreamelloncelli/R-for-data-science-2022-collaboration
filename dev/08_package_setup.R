@@ -64,6 +64,7 @@ usethis::use_package( "dplyr" )
 
 ## If you want to use roxygen, enable ROXYGEN in the project.
 # Menu: tools > Project options > build tools > generate the documentation with roxygen
+# NB: flag also "Install and Restart"
 usethis::use_namespace(roxygen = TRUE)
 devtools::document() # to fill NAMESPACE and documentation with ROXYGEN comments
 # or roxygen2::roxygenise() # converts roxygen comments to .Rd files.
