@@ -44,7 +44,7 @@ usethis::use_readme_md( open = FALSE )
 
 ## Use tests: if you want to use tests
 usethis::use_testthat()
-# installed.packages("devtools")
+install.packages("devtools")
 
 
 # Develop -----------------------------------------------------------------
