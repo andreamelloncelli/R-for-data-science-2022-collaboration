@@ -5,7 +5,7 @@
 #' @return
 #' @export
 #'
-#' @import dplyr
+#' @importFrom dplyr group_by summarise %>%
 #'
 #' @examples
 get_avg_petal_width <- function(df) {

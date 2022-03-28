@@ -3,4 +3,6 @@
 export(get_avg_petal_width)
 export(hello)
 export(somma)
-import(dplyr)
+importFrom(dplyr,"%>%")
+importFrom(dplyr,group_by)
+importFrom(dplyr,summarise)
