@@ -44,13 +44,15 @@ usethis::use_readme_md( open = FALSE )
 
 ## Use tests: if you want to use tests
 usethis::use_testthat()
-install.packages("devtools")
 
 
 # Develop -----------------------------------------------------------------
 
 
 # * Add a dependency ------------------------------------------------------
+
+# Development dependency
+usethis::use_package("devtools", type = "Suggests")
 
 usethis::use_package( "dplyr" )
 # remeber to add it to ROXYGEN or NAMESPACE:
