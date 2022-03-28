@@ -1,0 +1,34 @@
+---
+title: "myPackageExample"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{myPackageExample}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(myPackage)
+```
+
+
+# How to sum two numbers
+
+```{r}
+somma(7, 5)
+```
+
+
+# Prepare iris dataset
+
+```{r}
+get_avg_petal_width(iris)
+```
+

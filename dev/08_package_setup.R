@@ -85,7 +85,7 @@ usethis::use_data_raw( name = "my_dataset", open = FALSE )
 usethis::use_test( "sum" )
 
 # * Add Vignettes --------------------------------------------------------
-usethis::use_vignette("ThisTidyPackage")
+usethis::use_vignette("myPackageExample")
 devtools::build_vignettes()
 # Install the package and see it with `vignette("ThisTidyPackage")`
 # List your vignettes: vignette(package = 'cancRFDS')

@@ -5,3 +5,6 @@
 .Rprofile
 renv
 renv.lock
+inst/doc
+/doc/
+/Meta/
