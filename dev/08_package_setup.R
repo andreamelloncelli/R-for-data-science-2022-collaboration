@@ -82,7 +82,7 @@ usethis::use_data_raw( name = "my_dataset", open = FALSE )
 
 # * Add Tests -------------------------------------------------------------
 ## Add one line by test you want to create
-usethis::use_test( "hello" )
+usethis::use_test( "sum" )
 
 # * Add Vignettes --------------------------------------------------------
 usethis::use_vignette("ThisTidyPackage")
